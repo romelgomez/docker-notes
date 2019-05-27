@@ -6,6 +6,7 @@ Un contenedor docker es como una función con un decorador que define limitacion
 
 ## Comandos
 
+```
 docker ps = lista los contenedores
 docker ps -a = lista contenedores a detalles
 docker ps -aq = lista solo los ID de los contenedores (la q significa quiet, tranquilo o silencioso)
@@ -14,6 +15,7 @@ docker inspect nombre_contenedor = lo mismo que el anterior
 docker inspect -f {{}} nombre_contenedor = filtra una variable especifico del contenedor
 docker rm nombre_contenedor = elimina un contenedor
 docker rm $(ps -aq) = borra TODOS los contenedores
+```
 
 ## Run an nginx server as container
 
